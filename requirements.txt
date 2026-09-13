@@ -1,0 +1,4 @@
+# Spine (Layer 0) needs only numpy. torch is required from Layer 2 (models) onward.
+numpy>=1.24
+torch>=2.0        # install the CUDA build matching your RTX 3050 driver
+pyyaml>=6.0       # for config files in later layers

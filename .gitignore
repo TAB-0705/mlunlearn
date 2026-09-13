@@ -1,0 +1,8 @@
+# data (download + convert locally; never commit the big files)
+data/
+# environment
+.venv/
+__pycache__/
+*.pyc
+# experiment outputs (regenerated from configs)
+core/results/
